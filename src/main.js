@@ -2,24 +2,24 @@ import "./styles.css";
 
 const signals = [
   {
-    id: "ccom-music",
-    title: "中央音乐学院把“智能创作”放进音乐教育与表演现场一起讨论",
+    id: "cuc-declaration",
+    title: "中传把“创作主导权”写进《数智艺术北京宣言》",
     summary:
-      "中央音乐学院 4 月底发布的“世界艺术与科技对话”音乐分会场预告，把未来音乐教育、音乐大模型、智能创作、人机协同表演和数字音乐产业放在同一张议程里。",
-    note: "对音乐人和声音艺术家来说，它提示的不是单点工具，而是整个创作生态正在重组。",
-    source: "中央音乐学院",
-    date: "2026-04-27",
-    href: "https://www.ccom.edu.cn/info/18041/264591.htm",
-    cta: "查看来源",
+      "中国传媒大学 5 月 1 日发布研讨会回顾，并联合多所高校发布《数智艺术北京宣言》，把人文底色、批判判断和创作者主导权推到艺科教育中心。",
+    note: "对院校、工作室和独立创作者来说，这不是抽象口号，而是未来课程、合作规范和作品署名逻辑的风向标。",
+    source: "中国传媒大学",
+    date: "2026-05-01",
+    href: "https://www.cuc.edu.cn/news/2026/0501/c10133a269799/page.htm",
+    cta: "查看原文",
     tags: ["research", "cn"],
     labels: ["科研/研讨", "国内"],
   },
   {
     id: "sta-theatre",
-    title: "上戏把未来戏剧的关键问题指向“观演关系如何被数智技术重写”",
+    title: "上戏把“未来戏剧学”落到现场经验与观演关系上",
     summary:
-      "上海戏剧学院 4 月 29 日发布的国际研讨会回顾，讨论人工智能、虚拟现实与交互技术如何重构戏剧本体、表演范式、空间边界与观众关系。",
-    note: "这对舞台、策展和沉浸式团队都很有现实参考价值。",
+      "上海戏剧学院 4 月 29 日发布国际研讨会回顾，集中讨论人工智能、虚拟现实与交互技术如何重构戏剧本体、表演范式、空间边界与观众关系。",
+    note: "如果你在做舞台、沉浸式叙事或展演策划，这条信号说明“技术上场”已经从视觉炫技转向如何保护在场感。",
     source: "上海戏剧学院",
     date: "2026-04-29",
     href: "https://www.sta.edu.cn/eb/81/c1546a125825/page.htm",
@@ -28,24 +28,11 @@ const signals = [
     labels: ["科研/研讨", "国内"],
   },
   {
-    id: "springer-cocreation",
-    title: "昨天上线的新论文把“数字媒体艺术共创”直接写成研究主题",
-    summary:
-      "Springer 旗下《Journal of Big Data》5 月 3 日发布的论文，讨论数字媒体艺术中的“计算式共创”与“适应性审美智能”。",
-    note: "研究开始把实时互动、风格调节和人机协作体验当成创作问题，而不只是算法问题。",
-    source: "Journal of Big Data / Springer",
-    date: "2026-05-03",
-    href: "https://link.springer.com/article/10.1186/s40537-026-01453-1",
-    cta: "查看论文",
-    tags: ["research", "global"],
-    labels: ["科研/论文", "国外"],
-  },
-  {
     id: "cambridge-sound",
-    title: "剑桥这篇音乐论文提醒：很多“AI 声音美学”其实是人先想象出来的",
+    title: "音乐论文提醒：很多“AI 声音气质”先来自人的文化想象",
     summary:
-      "Cambridge Core 4 月 14 日上线的 Organised Sound 论文指出，创作者对“幽灵感”“异质感”的文化想象，会反过来塑造声音系统的设计选择。",
-    note: "这个观察把审美预设重新拉回实验音乐、声音装置和配乐创作现场。",
+      "Cambridge Core 4 月 14 日上线的《Organised Sound》论文指出，创作者关于“幽灵感”“异质感”的叙事预设，会反过来影响 AI 声音系统的设计与作品结果。",
+    note: "它对声音艺术、配乐和实验音乐特别重要，因为它把“审美为什么成立”拉回到创作者经验，而不只是模型参数。",
     source: "Organised Sound / Cambridge Core",
     date: "2026-04-14",
     href: "https://www.cambridge.org/core/journals/organised-sound/article/when-ai-dont-sound-like-ai-negotiating-aesthetic-expectations-in-technologymediated-musical-practice/58E74C59A151F4BA0F289CEA22B9D1FE",
@@ -54,24 +41,24 @@ const signals = [
     labels: ["科研/论文", "国外"],
   },
   {
-    id: "cuc-declaration",
-    title: "中国传媒大学发布《数智艺术北京宣言》，把“创作主导权”摆到台前",
+    id: "sage-painting-labels",
+    title: "新研究发现：观众判断 AI 绘画时，标签有时比作品本身更有影响",
     summary:
-      "中传 5 月 1 日发布的研讨会消息中，系统表述了“以人为本”“把握创作主导权”“警惕算法规训”和伦理版权风险。",
-    note: "这说明国内艺科融合正在形成更明确的价值框架。",
-    source: "中国传媒大学",
-    date: "2026-05-01",
-    href: "https://www.cuc.edu.cn/news/2026/0501/c10133a269799/page.htm",
-    cta: "查看报道",
-    tags: ["trend", "cn"],
-    labels: ["热点/报道", "国内"],
+      "《Empirical Studies of the Arts》4 月 13 日上线论文，用眼动和自评实验发现：普通观众往往偏好被标注为“人类创作”的绘画，即便他们并不能稳定分辨真实来源。",
+    note: "这直接关联策展文案、作品署名和展览沟通方式，也提醒艺术家别低估标签对作品接受度的影响。",
+    source: "Empirical Studies of the Arts / SAGE",
+    date: "2026-04-13",
+    href: "https://journals.sagepub.com/doi/abs/10.1177/02762374261441560",
+    cta: "查看论文",
+    tags: ["research", "global"],
+    labels: ["科研/论文", "国外"],
   },
   {
     id: "birdnest-expo",
-    title: "鸟巢科技艺术中心启幕，国际科技艺术展进入长期开放状态",
+    title: "鸟巢科技艺术中心启幕，科技艺术展开始走向长期公共空间",
     summary:
-      "5 月 1 日对外传播的“可能世界档案：2026 国际科技艺术展”，集合 70 余位艺术家和团队、近 150 组作品，并将持续到 2027 年。",
-    note: "它更像是一个长期公共文化场域，而不只是一次节庆式展演。",
+      "中国网 5 月 1 日报道显示，“可能世界档案：2026 国际科技艺术展”作为鸟巢科技艺术中心启幕展，集合 70 余位艺术家与团队、近 150 组作品，并计划持续开放一年。",
+    note: "这意味着国内艺科融合正在从节庆式事件转向长期运营的公共文化基础设施。",
     source: "中国网",
     date: "2026-05-01",
     href: "https://www.china.org.cn/2026-05/01/content_118473308.shtml",
@@ -80,11 +67,24 @@ const signals = [
     labels: ["热点/展览", "国内"],
   },
   {
-    id: "adobe-firefly",
-    title: "Adobe 把 Firefly AI Assistant 推入公测，创作工作台继续被重写",
+    id: "lilwukong-video",
+    title: "AI 音乐短片《500 Winters》继续发酵，幕后工作流也被公开了",
     summary:
-      "Adobe 4 月 27 日宣布 Firefly AI Assistant 公测，把跨 Photoshop、Premiere、Lightroom 等应用的多步流程变成“先描述结果、再由系统编排执行”的创作路径。",
-    note: "设计、摄影和视频团队需要重新理解从想法到交付的路径。",
+      "B 站热门视频《Lilwukong 500 Winters 正式发布，工作流已开源》仍在被持续讨论：先锋 AI 音乐与 MV 成片之外，平台把完整制作逻辑也同步公开给创作者社区。",
+    note: "它代表的不是单条爆款，而是“成片 + 教程 + 社区复制”的新传播路径，特别适合做短片、音乐视觉和个人项目的人关注。",
+    source: "哔哩哔哩 / TapNow",
+    date: "2026-03-04",
+    href: "https://www.bilibili.com/video/BV1ETPwzcEHg/",
+    cta: "观看视频",
+    tags: ["trend", "cn"],
+    labels: ["热点/视频", "国内"],
+  },
+  {
+    id: "adobe-firefly",
+    title: "Adobe 把 Firefly AI Assistant 推入公测，创作流程更像在导演一支团队",
+    summary:
+      "Adobe 4 月 27 日宣布 Firefly AI Assistant 公测，创作者只需描述目标结果，系统就会在 Firefly、Photoshop、Premiere、Lightroom 等应用之间编排多步骤工作流。",
+    note: "对设计、摄影和视频团队来说，这不是单一生成工具升级，而是整个创作桌面开始转向“先说意图、再调结果”。",
     source: "Adobe Blog",
     date: "2026-04-27",
     href: "https://blog.adobe.com/en/publish/2026/04/27/firefly-ai-assistant-public-beta",
@@ -93,17 +93,17 @@ const signals = [
     labels: ["热点/博客", "国外"],
   },
   {
-    id: "oscars-ai-rule",
-    title: "奥斯卡首次把 AI 使用写进规则，影像行业开始正式划线",
+    id: "dataland-opening",
+    title: "DATALAND 公布 6 月开馆，AI 艺术博物馆开始进入机构化阶段",
     summary:
-      "AP 5 月 1 日报道显示，美国电影艺术与科学学院首次在奥斯卡规则中正面回应 AI：并未一刀切禁止，但把“人类作者性”和同意机制放在资格考量核心。",
-    note: "对导演、编剧、表演和影像团队来说，这已经是非常具体的制度信号。",
-    source: "AP News",
-    date: "2026-05-01",
-    href: "https://apnews.com/article/95a66f19bd0a95d371ac82f21df1a0f4",
-    cta: "查看报道",
+      "DATALAND 官方站点已确认这座“世界首家 AI 艺术博物馆”将于 6 月 20 日在洛杉矶开馆，首展《Machine Dreams: Rainforest》主打多感官、实时演化的生成式空间。",
+    note: "这条消息值得艺术从业者留意，因为它说明 AI 艺术正在从作品个案进入长期机构、展陈系统与会员制运营阶段。",
+    source: "DATALAND",
+    date: "2026-05-04",
+    href: "https://dataland.art/",
+    cta: "查看项目",
     tags: ["trend", "global"],
-    labels: ["热点/行业规则", "国外"],
+    labels: ["热点/展览", "国外"],
   },
 ];
 
@@ -151,7 +151,9 @@ function renderList() {
 
 function renderDetail() {
   const visibleSignals = signals.filter(matchesFilter);
-  const activeSignal = visibleSignals.find((signal) => signal.id === activeSignalId) ?? visibleSignals[0];
+  const activeSignal =
+    visibleSignals.find((signal) => signal.id === activeSignalId) ??
+    visibleSignals[0];
 
   if (!activeSignal) {
     signalDetail.innerHTML = "<p>没有符合筛选条件的信号。</p>";
@@ -182,7 +184,9 @@ filterButtons.forEach((button) => {
       activeSignalId = firstMatch.id;
     }
 
-    filterButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+    filterButtons.forEach((item) =>
+      item.classList.toggle("is-active", item === button),
+    );
     renderList();
     renderDetail();
   });
