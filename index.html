@@ -3,198 +3,109 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="2026年5月4日艺术与科技交叉热点日报，按国内/国外与科研/热点各半整理，聚焦审美与作者性、艺科教育与公共展演，以及创作工作流与行业规则的新变化。">
-    <title>艺术与科技交叉日报｜2026-05-04</title>
+    <meta name="description" content="2026年5月4日艺术与科技交叉热点日报，聚焦审美判断、作者主体性、艺科教育、公共展演、创作工具链与行业规则。">
+    <title>Art × Tech Daily｜艺术与科技交叉日报</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet">
     <link rel="preload" as="image" href="assets/art-tech-hero.png">
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
-    <header class="hero">
+    <header class="hero" id="top">
       <img class="hero__image" src="assets/art-tech-hero.png" alt="媒体艺术展厅中的互动光影、数字屏幕与音乐科技装置">
-      <div class="hero__shade"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
       <nav class="topbar" aria-label="日报导航">
-        <a class="brand" href="#top" aria-label="返回日报顶部">
-          <span class="brand__mark" aria-hidden="true"></span>
-          Art × Tech Daily
-        </a>
+        <a class="nav-brand" href="#top" aria-label="返回 Art × Tech Daily 顶部">Art × Tech Daily</a>
         <div class="topbar__links">
-          <a href="#brief">摘要</a>
+          <a href="#brief">脉络</a>
           <a href="#signals">信号</a>
-          <a href="#sources">来源</a>
+          <a href="#editorial">观察</a>
         </div>
       </nav>
-      <section class="hero__content" id="top">
-        <p class="eyebrow">2026年5月4日 · 今日追踪</p>
-        <h1>艺术与科技交叉日报</h1>
-        <p class="hero__lead">
-          今天的内容按科研/论文与热点动态各半整理，国内外来源各占一半。由于 2026 年 5 月 4 日当天适合艺术行业直接跟进的新增条目仍以近一周内容为主，本期重点放在审美判断、作者主体性、艺科教育和创作工作流的最新变化。
-        </p>
-        <div class="hero__meta" aria-label="日报配比">
-          <span>8 条精选</span>
-          <span>4 国内 / 4 国外</span>
-          <span>4 科研 / 4 热点</span>
+      <section class="hero__content" aria-labelledby="hero-title">
+        <div class="hero__main">
+          <p class="hero__date">2026.05.04</p>
+          <h1 id="hero-title">艺术与科技交叉日报</h1>
+          <p class="hero__lead">
+            面向创作者、策展人和内容团队，追踪审美判断、作者主体性、公共展演、创作工具链与行业规则的新变化。
+          </p>
+          <div class="hero__actions" aria-label="主要操作">
+            <a class="button button--primary" href="#signals">阅读八条信号</a>
+            <a class="button button--ghost" href="#brief">先看今日脉络</a>
+          </div>
+        </div>
+        <div class="hero__brief" aria-label="今日关键判断">
+          <p>今日关键判断</p>
+          <ol>
+            <li>讨论重心从生成能力转向审美经验与作者主体性。</li>
+            <li>国内艺科融合正在进入教育共识和公共空间建设。</li>
+            <li>海外创作工具加速对话化，行业规则开始正式划线。</li>
+          </ol>
         </div>
       </section>
     </header>
 
     <main>
-      <section class="section brief" id="brief" aria-labelledby="brief-title">
-        <div class="section__head">
-          <p class="eyebrow">Executive Brief</p>
-          <h2 id="brief-title">今日要点</h2>
+      <section class="section brief reveal" id="brief" aria-labelledby="brief-title">
+        <div class="section__intro">
+          <p class="section__kicker">Today’s Line</p>
+          <h2 id="brief-title">今天的核心不是模型炫技，而是创作权、审美经验和现场关系重新被定义。</h2>
         </div>
-        <div class="brief__grid">
-          <article>
-            <span class="brief__number">01</span>
-            <h3>“审美如何成立”正在替代“模型有多强”</h3>
-            <p>从中央音乐学院、上海戏剧学院的研讨，到海外关于数字媒体共创与 AI 音乐审美的论文，讨论明显在转向作品经验、作者感和人机协同的边界。</p>
+        <div class="brief-flow" aria-label="今日三条脉络">
+          <article class="brief-line">
+            <span class="brief-line__index">01</span>
+            <div>
+              <h3>审美判断回到创作现场</h3>
+              <p>国内研讨与海外论文都在把问题从“生成得像不像”推进到“作品经验如何成立”，音乐、戏剧、数字媒体艺术都开始讨论人机协同中的作者感。</p>
+            </div>
           </article>
-          <article>
-            <span class="brief__number">02</span>
-            <h3>国内信号更像“制度与场域建设”</h3>
-            <p>中国传媒大学发布《数智艺术北京宣言》，鸟巢科技艺术中心以大型国际科技艺术展启幕，都说明艺科融合正在从概念讨论走向教育共识和公共文化基础设施。</p>
+          <article class="brief-line">
+            <span class="brief-line__index">02</span>
+            <div>
+              <h3>国内正在搭建艺科基础设施</h3>
+              <p>高校共识、公共展演和长期空间同时出现，说明艺科融合正在从概念表达转向教育、伦理、场域和运营系统。</p>
+            </div>
           </article>
-          <article>
-            <span class="brief__number">03</span>
-            <h3>海外同时在改造工具链，也在重写作者性规则</h3>
-            <p>Adobe 把 Firefly AI Assistant 推入公测，继续压缩从想法到交付的路径；与此同时，奥斯卡首次把 AI 使用写进规则，明确影像创作不能回避“谁在创作”的制度问题。</p>
+          <article class="brief-line">
+            <span class="brief-line__index">03</span>
+            <div>
+              <h3>海外同时推进工具与规则</h3>
+              <p>Adobe 继续把多应用创作压缩进对话式流程，奥斯卡则把 AI 使用写入制度文本，行业开始要求创作者解释“谁在创作”。</p>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section signals" id="signals" aria-labelledby="signals-title">
-        <div class="section__head">
-          <p class="eyebrow">Signal Board</p>
-          <h2 id="signals-title">八条精选</h2>
+      <section class="section signals reveal" id="signals" aria-labelledby="signals-title">
+        <div class="section__intro section__intro--split">
+          <div>
+            <p class="section__kicker">Signal Reader</p>
+            <h2 id="signals-title">八条精选信号</h2>
+          </div>
+          <p>按科研、热点、国内、国外快速聚焦；点击任意标题，右侧会展开完整判断和原始来源。</p>
         </div>
-        <div class="filterbar" aria-label="筛选来源">
+
+        <div class="filterbar" aria-label="筛选信号">
           <button class="filterbar__button is-active" type="button" data-filter="all">全部</button>
           <button class="filterbar__button" type="button" data-filter="research">科研论文</button>
-          <button class="filterbar__button" type="button" data-filter="trend">视频博客热点</button>
+          <button class="filterbar__button" type="button" data-filter="trend">热点动态</button>
           <button class="filterbar__button" type="button" data-filter="cn">国内</button>
           <button class="filterbar__button" type="button" data-filter="global">国外</button>
         </div>
-        <div class="cards" id="sourceCards">
-          <article class="source-card" data-tags="research cn">
-            <div class="source-card__top">
-              <span class="tag tag--research">科研/研讨</span>
-              <span class="tag">国内</span>
-            </div>
-            <h3>中央音乐学院把“智能创作”放进音乐教育与表演现场一起讨论</h3>
-            <p>中央音乐学院 4 月底发布的“世界艺术与科技对话”音乐分会场预告，把未来音乐教育、音乐大模型、智能创作、人机协同表演和数字音乐产业放在同一张议程里。对音乐人和声音艺术家来说，它提示的不是单点工具，而是整个创作生态正在重组。</p>
-            <dl>
-              <div><dt>来源</dt><dd>中央音乐学院</dd></div>
-              <div><dt>日期</dt><dd>2026-04-27</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://www.ccom.edu.cn/info/18041/264591.htm" target="_blank" rel="noreferrer">查看来源</a>
-          </article>
 
-          <article class="source-card" data-tags="research cn">
-            <div class="source-card__top">
-              <span class="tag tag--research">科研/研讨</span>
-              <span class="tag">国内</span>
-            </div>
-            <h3>上戏把未来戏剧的关键问题指向“观演关系如何被数智技术重写”</h3>
-            <p>上海戏剧学院 4 月 29 日发布的国际研讨会回顾，讨论重点不是单纯技术展示，而是人工智能、虚拟现实与交互技术如何重构戏剧本体、表演范式、空间边界与观众关系。这对舞台、策展和沉浸式团队都很有现实参考价值。</p>
-            <dl>
-              <div><dt>来源</dt><dd>上海戏剧学院</dd></div>
-              <div><dt>日期</dt><dd>2026-04-29</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://www.sta.edu.cn/eb/81/c1546a125825/page.htm" target="_blank" rel="noreferrer">查看来源</a>
-          </article>
-
-          <article class="source-card" data-tags="research global">
-            <div class="source-card__top">
-              <span class="tag tag--research">科研/论文</span>
-              <span class="tag">国外</span>
-            </div>
-            <h3>昨天上线的新论文把“数字媒体艺术共创”直接写成研究主题</h3>
-            <p>Springer 旗下《Journal of Big Data》5 月 3 日发布的论文，讨论数字媒体艺术中的“计算式共创”与“适应性审美智能”。它对艺术从业者的意义在于，研究开始把实时互动、风格调节和人机协作体验，当成创作问题而不只是算法问题。</p>
-            <dl>
-              <div><dt>来源</dt><dd>Journal of Big Data / Springer</dd></div>
-              <div><dt>日期</dt><dd>2026-05-03</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://link.springer.com/article/10.1186/s40537-026-01453-1" target="_blank" rel="noreferrer">查看论文</a>
-          </article>
-
-          <article class="source-card" data-tags="research global">
-            <div class="source-card__top">
-              <span class="tag tag--research">科研/论文</span>
-              <span class="tag">国外</span>
-            </div>
-            <h3>剑桥这篇音乐论文提醒：很多“AI 声音美学”其实是人先想象出来的</h3>
-            <p>Cambridge Core 4 月 14 日上线的 Organised Sound 论文指出，创作者对“幽灵感”“异质感”的文化想象，会反过来塑造声音系统的设计选择。对于实验音乐、声音装置和配乐创作者来说，这个观察很重要，因为它把审美预设重新拉回创作现场。</p>
-            <dl>
-              <div><dt>来源</dt><dd>Organised Sound / Cambridge Core</dd></div>
-              <div><dt>日期</dt><dd>2026-04-14</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://www.cambridge.org/core/journals/organised-sound/article/when-ai-dont-sound-like-ai-negotiating-aesthetic-expectations-in-technologymediated-musical-practice/58E74C59A151F4BA0F289CEA22B9D1FE" target="_blank" rel="noreferrer">查看论文</a>
-          </article>
-
-          <article class="source-card" data-tags="trend cn">
-            <div class="source-card__top">
-              <span class="tag tag--trend">热点/报道</span>
-              <span class="tag">国内</span>
-            </div>
-            <h3>中国传媒大学发布《数智艺术北京宣言》，把“创作主导权”摆到台前</h3>
-            <p>中传 5 月 1 日发布的研讨会消息中，最值得艺术从业者注意的不是口号，而是对“以人为本”“把握创作主导权”“警惕算法规训”和“处理伦理与版权风险”的系统表述。这说明国内艺科融合正在形成更明确的价值框架。</p>
-            <dl>
-              <div><dt>来源</dt><dd>中国传媒大学</dd></div>
-              <div><dt>日期</dt><dd>2026-05-01</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://www.cuc.edu.cn/news/2026/0501/c10133a269799/page.htm" target="_blank" rel="noreferrer">查看报道</a>
-          </article>
-
-          <article class="source-card" data-tags="trend cn">
-            <div class="source-card__top">
-              <span class="tag tag--trend">热点/展览</span>
-              <span class="tag">国内</span>
-            </div>
-            <h3>鸟巢科技艺术中心启幕，国际科技艺术展进入长期开放状态</h3>
-            <p>5 月 1 日对外传播的“可能世界档案：2026 国际科技艺术展”，集合 70 余位艺术家和团队、近 150 组作品，并将持续到 2027 年。它更像是一个长期公共文化场域，而不只是一次节庆式展演，值得策展、空间叙事和沉浸团队持续关注。</p>
-            <dl>
-              <div><dt>来源</dt><dd>中国网</dd></div>
-              <div><dt>日期</dt><dd>2026-05-01</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://www.china.org.cn/2026-05/01/content_118473308.shtml" target="_blank" rel="noreferrer">查看报道</a>
-          </article>
-
-          <article class="source-card" data-tags="trend global">
-            <div class="source-card__top">
-              <span class="tag tag--trend">热点/博客</span>
-              <span class="tag">国外</span>
-            </div>
-            <h3>Adobe 把 Firefly AI Assistant 推入公测，创作工作台继续被重写</h3>
-            <p>Adobe 4 月 27 日宣布 Firefly AI Assistant 公测。它最值得设计、摄影和视频团队关注的地方，在于把跨 Photoshop、Premiere、Lightroom 等应用的多步流程，变成“先描述结果、再由系统编排执行”的创作路径。</p>
-            <dl>
-              <div><dt>来源</dt><dd>Adobe Blog</dd></div>
-              <div><dt>日期</dt><dd>2026-04-27</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://blog.adobe.com/en/publish/2026/04/27/firefly-ai-assistant-public-beta" target="_blank" rel="noreferrer">查看博客</a>
-          </article>
-
-          <article class="source-card" data-tags="trend global">
-            <div class="source-card__top">
-              <span class="tag tag--trend">热点/行业规则</span>
-              <span class="tag">国外</span>
-            </div>
-            <h3>奥斯卡首次把 AI 使用写进规则，影像行业开始正式划线</h3>
-            <p>AP 5 月 1 日报道显示，美国电影艺术与科学学院首次在奥斯卡规则中正面回应 AI：并未一刀切禁止，但把“人类作者性”和同意机制放在资格考量核心。对导演、编剧、表演和影像团队来说，这已经是非常具体的制度信号。</p>
-            <dl>
-              <div><dt>来源</dt><dd>AP News</dd></div>
-              <div><dt>日期</dt><dd>2026-05-01</dd></div>
-            </dl>
-            <a class="source-card__link" href="https://apnews.com/article/95a66f19bd0a95d371ac82f21df1a0f4" target="_blank" rel="noreferrer">查看报道</a>
-          </article>
+        <div class="signal-reader">
+          <div class="signal-list" id="signalList" aria-label="信号列表"></div>
+          <aside class="signal-detail" id="signalDetail" aria-live="polite"></aside>
         </div>
       </section>
 
-      <section class="section sources" id="sources" aria-labelledby="sources-title">
-        <div class="section__head">
-          <p class="eyebrow">Editorial Notes</p>
-          <h2 id="sources-title">编辑观察</h2>
+      <section class="section editorial reveal" id="editorial" aria-labelledby="editorial-title">
+        <div class="section__intro">
+          <p class="section__kicker">Editorial Notes</p>
+          <h2 id="editorial-title">编辑观察</h2>
         </div>
-        <div class="note-grid">
+        <div class="editorial-flow">
           <p>今天最值得跟进的学术线索，是国内外讨论都在把注意力从“生成能力”转向“审美经验、作者主体性和协作关系”。这对艺术行业更有现实意义，因为它直接影响作品如何成立、如何被评价。</p>
           <p>国内热点正在走向更稳定的组织形态：一边是高校与行业共同形成关于数智艺术教育和创作伦理的共识，一边是大型公共展演空间开始常态化运营，艺科融合越来越像长期基础设施建设。</p>
           <p>海外则形成了工具和规则的双重推进。一方面，Adobe 继续把创意工作流压缩进更统一的对话式界面；另一方面，奥斯卡开始把 AI 使用写进制度文本，提醒影像创作者尽早准备合规与署名问题。</p>
@@ -203,7 +114,7 @@
     </main>
 
     <footer class="footer">
-      <p>艺术与科技交叉日报 · 2026-05-04</p>
+      <p>Art × Tech Daily · 2026-05-04</p>
       <a href="#top">回到顶部</a>
     </footer>
   </body>
