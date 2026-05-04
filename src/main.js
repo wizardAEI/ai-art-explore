@@ -1,3 +1,5 @@
+import "./styles.css";
+
 const buttons = document.querySelectorAll(".filterbar__button");
 const cards = document.querySelectorAll(".source-card");
 
