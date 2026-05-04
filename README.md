@@ -29,8 +29,13 @@ npm run preview
 ### 方式二：Wrangler 直接部署
 
 ```bash
-npm run build
-npx wrangler pages deploy dist --project-name ai-art-explore
+npm run deploy:pages
 ```
 
 `wrangler.toml` 已配置 `pages_build_output_dir = "dist"`，Cloudflare Pages 会使用构建后的静态文件发布页面。
+
+如果 Cloudflare 项目使用的是 Workers 的 `wrangler deploy` 流程，`wrangler.toml` 也已配置 `[assets] directory = "./dist"`。这时可以使用：
+
+```bash
+npm run deploy
+```
