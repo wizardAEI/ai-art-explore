@@ -119,6 +119,8 @@ const filterButtons = [...document.querySelectorAll(".filterbar__button")];
 const signalList = document.querySelector("#signalList");
 const signalDetail = document.querySelector("#signalDetail");
 const revealTargets = [...document.querySelectorAll(".reveal")];
+const mobileSignalQuery = window.matchMedia("(max-width: 680px)");
+const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 let activeFilter = "all";
 let activeSignalId = signals[0].id;
@@ -137,7 +139,7 @@ function renderList() {
   signalList.innerHTML = visibleSignals
     .map(
       (signal, index) => `
-        <button class="signal-item${signal.id === activeSignalId ? " is-active" : ""}" type="button" data-signal-id="${signal.id}">
+        <button class="signal-item${signal.id === activeSignalId ? " is-active" : ""}" type="button" data-signal-id="${signal.id}"${signal.id === activeSignalId ? ' aria-current="true"' : ""}>
           <span class="signal-item__number">${String(index + 1).padStart(2, "0")}</span>
           <span class="signal-item__body">
             <span class="signal-item__labels">${renderLabels(signal)}</span>
@@ -153,6 +155,13 @@ function renderList() {
       activeSignalId = button.dataset.signalId;
       renderList();
       renderDetail();
+
+      if (mobileSignalQuery.matches) {
+        signalDetail.scrollIntoView({
+          behavior: reducedMotionQuery.matches ? "auto" : "smooth",
+          block: "start",
+        });
+      }
     });
   });
 }
@@ -192,9 +201,11 @@ filterButtons.forEach((button) => {
       activeSignalId = firstMatch.id;
     }
 
-    filterButtons.forEach((item) =>
-      item.classList.toggle("is-active", item === button),
-    );
+    filterButtons.forEach((item) => {
+      const isActive = item === button;
+      item.classList.toggle("is-active", isActive);
+      item.setAttribute("aria-pressed", String(isActive));
+    });
     renderList();
     renderDetail();
   });

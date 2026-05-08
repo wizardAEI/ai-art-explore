@@ -25,7 +25,7 @@
       <section class="hero__content" aria-labelledby="hero-title">
         <div class="hero__main">
           <p class="hero__date">2026.05.08</p>
-          <h1 id="hero-title">艺术与科技交叉日报</h1>
+          <h1 id="hero-title"><span class="hero-title__line">艺术与科技</span><span class="hero-title__line">交叉日报</span></h1>
           <p class="hero__lead">
             写给创作者、策展人、设计师、影像作者与艺术教育者：今天值得留意的是，艺术科技正在从一次性生成走向可编排的感官系统。音乐有了结构控制，视频有了实时导向，展览也开始把机器人、数据与观众路径一起写进作品。
           </p>
@@ -47,11 +47,11 @@
         </div>
 
         <div class="filterbar" aria-label="筛选信号">
-          <button class="filterbar__button is-active" type="button" data-filter="all">全部</button>
-          <button class="filterbar__button" type="button" data-filter="research">研究 / 方法</button>
-          <button class="filterbar__button" type="button" data-filter="trend">热点 / 工具</button>
-          <button class="filterbar__button" type="button" data-filter="cn">国内</button>
-          <button class="filterbar__button" type="button" data-filter="global">国外</button>
+          <button class="filterbar__button is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+          <button class="filterbar__button" type="button" data-filter="research" aria-pressed="false">研究 / 方法</button>
+          <button class="filterbar__button" type="button" data-filter="trend" aria-pressed="false">热点 / 工具</button>
+          <button class="filterbar__button" type="button" data-filter="cn" aria-pressed="false">国内</button>
+          <button class="filterbar__button" type="button" data-filter="global" aria-pressed="false">国外</button>
         </div>
 
         <div class="signal-reader">
