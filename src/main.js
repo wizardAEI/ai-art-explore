@@ -2,116 +2,116 @@ import "./styles.css";
 
 const signals = [
   {
-    id: "gafa-immersive-design-future",
-    title: "广州美院把沉浸式设计拉回文化体验现场，AI 不再只负责炫技，也开始负责叙事温度",
+    id: "nju-incalculable-summer-school",
+    title: "南京大学把“不可计算”推回艺术方法内部，这场暑校更像一次给创作者准备的思维换挡",
     summary:
-      "广州美术学院于 2026 年 5 月 12 日推出讲座“沉浸式设计未来：人工智能、创意技术与文化体验的未来”，把 AI、沉浸式媒体、数字遗产、空间体验和公众参与放进同一条问题链，讨论美术馆、设计师与研究者如何共同搭建更智能、更包容的文化场景。",
+      "南京大学艺术学院于 2026 年 5 月 12 日发布“不/可计算：人工智能、艺术与创意方法国际暑期学校”招生简章。课程把可持续未来、艺术与人文、科学与技术、文化与社区放进同一张课表里，邀请创作者从计算能力之外，重新讨论判断、关系与创意方法。",
     note:
-      "这条线索提醒我们，沉浸式设计真正重要的并不是设备清单，而是谁来组织感知，谁来编排参与，谁来决定空间如何回应观众。对策展人和空间创作者来说，这已经是一门新型现场写作。",
-    source: "广州美术学院",
+      "当越来越多工具承诺替我们生成答案，艺术教育反而开始提醒另一件事: 哪些问题不能被轻易算完。对策展、视觉叙事和跨媒介创作来说，这类训练的价值在于保住复杂性，而不是追求流程最短。",
+    source: "南京大学艺术学院",
     date: "2026-05-12",
-    href: "https://www.gzarts.edu.cn/info/4240/175634.htm",
-    cta: "查看讲座信息",
+    href: "https://art.nju.edu.cn/b3/80/c55331a832384/page.htm",
+    cta: "查看暑校简章",
     tags: ["research", "cn"],
-    labels: ["研究/沉浸式设计", "国内"],
+    labels: ["研究/创意方法", "国内"],
   },
   {
-    id: "zstu-visual-design-symposium",
-    title: "浙江理工把“设计师与 AI 的协作边界”摆上台面，视觉教育开始练习新的判断力",
+    id: "cdec-smart-soundscape",
+    title: "声音不再只是配角，中国好创意把“数智声景”单独拎出来，给展演与公共空间开了一条新赛道",
     summary:
-      "浙江理工大学艺术与设计学院 2026 年 5 月 11 日发布回顾，显示其 5 月 9 日举行的全国视觉设计学术研讨会围绕“文化新质”与“智性传达”展开，主旨演讲与圆桌讨论直接触及技术与艺术的新关系、审美失序、设计教育转型，以及设计师与 AI 的协作边界。",
+      "中国好创意暨全国数字艺术设计大赛于 2026 年 5 月 5 日发布第 20 届“数智声景专项赛”。主办方把声音景观、数字交互空间设计和学术论文并列成三个组别，明确鼓励创作者把 AI 生成、实时引擎、空间音频和多模态交互放进同一个方案里，面向文旅、展演、城市微空间与疗愈场景展开实验。",
     note:
-      "视觉行业接下来最稀缺的，也许不是会不会用模型，而是能不能在高效率生成里保住自己的选择能力。谁能把主体性、伦理感和审美控制练成基本功，谁就不容易被工具语言反向塑形。",
-    source: "浙江理工大学艺术与设计学院",
-    date: "2026-05-11",
-    href: "https://ad.zstu.edu.cn/info/1079/3092.htm",
-    cta: "查看研讨会回顾",
+      "这条信号很适合声音艺术家、舞台设计师和空间团队留意。新的创作单元正在出现，作品不一定先是一首歌、一支片子或一件装置，它也可能先是一套会响应人的场域关系。",
+    source: "中国好创意暨全国数字艺术设计大赛",
+    date: "2026-05-05",
+    href: "https://cdec.org.cn/articleDetail/2322",
+    cta: "查看专项赛说明",
     tags: ["research", "cn"],
-    labels: ["研究/视觉设计方法", "国内"],
+    labels: ["研究/声景方法", "国内"],
   },
   {
-    id: "siva-fashion-week-yiqi",
-    title: "SIVA 把智能材质和 3D 打印穿上身，未来设计学院这场秀更像一份可行中的服装原型库",
+    id: "met-build-with-ai",
+    title: "The Met 让创作者直接拿馆藏做原型，博物馆开始把 AI 当成观众关系设计的一部分",
     summary:
-      "上海视觉艺术学院于 2026 年 5 月 11 日预告，“衣启”主题作品将于 5 月 17 日在北京 798 中国国际大学生时装周亮相。近 80 套学生作品把高定数码印花、3D 打印塑形、智能材质拼接与非遗织造、科技面料放在同一条美学链路里，直接把未来服装的技术语言穿给观众看。",
+      "The Metropolitan Museum of Art 于 2026 年 5 月 1 日回顾“Build with AI at The Met”黑客松，邀请 40 多位 technologists、makers 与学生围绕亚洲艺术馆藏快速搭建体验原型。项目从自然语言语义搜索、鱼类图像识别到可演奏的数字乐器，把馆藏解释、游戏化交互和观众参与混在一起测试。",
     note:
-      "时装行业在这里释放了一个很明确的信号。材料实验、数字生产和文化叙事不再分批出现，它们被打包进同一场发布。对服装设计师和展陈团队来说，秀场越来越像测试创作工作流的前线。",
-    source: "上海视觉艺术学院",
-    date: "2026-05-17",
-    href: "https://info.siva.edu.cn/2026/0511/c892a31946/page.htm",
-    cta: "查看秀展预告",
-    tags: ["trend", "cn"],
-    labels: ["热点/未来时装秀", "国内"],
-  },
-  {
-    id: "beijing-ultra-hd-vidu",
-    title: "北京把 XR、机器人机位和一句话出片摆进同一展区，影像生产线开始被公众直接看见",
-    summary:
-      "北京市广播电视局 2026 年 5 月 9 日介绍，其在北京科博会上主办的“超高清视听科技展”集中呈现了 XR 大空间体验、机器人摄像师和 Vidu Q3 等 AI 视频工具。尤其是 Vidu Q3 把角色一致性、场景连续性、特效、音效和广告片生成打包展示，让短剧、漫剧、广告和影视制作的工作流被直接端到公众面前。",
-    note:
-      "对影像创作者来说，这类展会价值不在于看新功能列表，而在于确认制作逻辑真的变了。前期的概念组织、中期的视效控制、后期的声音氛围，正越来越像一次连续编排，而不是几个零散软件的拼接。",
-    source: "北京市广播电视局",
-    date: "2026-05-09",
-    href: "https://gdj.beijing.gov.cn/zwxx/gzbg1/202605/t20260509_4643116.html",
-    cta: "查看展会亮点",
-    tags: ["trend", "cn"],
-    labels: ["热点/视听创作工具", "国内"],
-  },
-  {
-    id: "osu-ai-generative-design",
-    title: "俄亥俄州立把 AI 课讲成一门视觉文化课，作者性和合成图像时代的判断开始一起训练",
-    summary:
-      "俄亥俄州立大学设计系夏季课程“AI and Generative Design”将在 2026 年 5 月 11 日至 6 月 18 日开课。课程不只教模型怎么用，而是把生成式设计方法、视觉文化变化、作者性与真实性问题一起纳入工作室训练，让学生把 AI 当作一种可被塑形的创作材料。",
-    note:
-      "这类课程说明一个变化已经发生了。未来设计教育不会把 AI 归到单独软件教学里，而会把它放进图像史、判断力和项目方法一起练。对年轻创作者而言，这比学会几个提示词更关键。",
-    source: "The Ohio State University Department of Design",
-    date: "2026-05-11",
-    href: "https://design.osu.edu/news/su26-course-design-5193-ai-and-generative-design",
-    cta: "查看课程介绍",
+      "很多机构还在问要不要把 AI 带进展厅，The Met 已经先拿它来试观众怎么走、怎么找、怎么玩。对美术馆与文化品牌来说，下一轮数字策展不只是做一个讲解助手，更像重写进入作品的方法。",
+    source: "The Metropolitan Museum of Art",
+    date: "2026-05-01",
+    href: "https://www.metmuseum.org/perspectives/build-with-ai-at-the-met",
+    cta: "查看 The Met 文章",
     tags: ["research", "global"],
-    labels: ["研究/生成设计教育", "国外"],
+    labels: ["研究/馆藏交互实验", "国外"],
   },
   {
-    id: "nyu-ai-visual-storytelling",
-    title: "NYU Tisch 把 AI 写进完整影像流程，分镜、世界观、声音和后期终于被当成一件事来教",
+    id: "interaccess-synthetic-worlds",
+    title: "InterAccess 把争议和实操一起摆上桌，这个生成影像工作坊更接近艺术家的现实训练",
     summary:
-      "NYU Tisch Martin Scorsese Virtual Production Center 将于 2026 年 5 月 19 日至 6 月 25 日开设“AI for Visual Storytelling”工作坊。课程涵盖脚本、分镜、视觉资产、后期交付、声音设计与伦理许可问题，明确把 AI 放进从概念发展到成片交付的整条链路里。",
+      "多伦多机构 InterAccess 于 2026 年 5 月 16 日至 17 日举办“Synthetic Worlds: Making Images & Video with Generative AI”。课程面向摄影师、电影作者、音乐人、画家等传统艺术创作者，同时讲训练素材争议、数据中心水耗与平台权力结构，也安排 StreamDiffusion、TouchDesigner、ComfyUI 等本地工作流实践。",
     note:
-      "这会影响越来越多的独立导演、广告团队和沉浸叙事作者。过去大家常把 AI 理解成前期灵感辅助，现在它被直接写进分镜、世界观、色彩和声音的协同里，真正成为项目管理的一部分。",
-    source: "NYU Tisch Martin Scorsese Virtual Production Center",
-    date: "2026-05-19",
-    href: "https://tisch.nyu.edu/virtual-production/professional-trainings-and-workshops.html",
-    cta: "查看工作坊安排",
-    tags: ["research", "global"],
-    labels: ["研究/影像工作流教育", "国外"],
-  },
-  {
-    id: "adobe-firefly-video-stack",
-    title: "Adobe 继续把视频流程往一个入口里收，创作者越来越像在调度一整套协作引擎",
-    summary:
-      "Adobe 于 2026 年 4 月 15 日发布新一轮视频能力更新，把 Firefly 视频编辑、Premiere 色彩工作流和 Frame.io Drive 一起推进，继续把生成、剪辑、调色、素材调用和团队协作压缩进一个更连续的创作入口。",
-    note:
-      "这不是一个单点功能新闻，而是一次工作方式迁移。影像团队以后比拼的，很可能不只是镜头美感，也是谁更会安排模型、素材、时间线和协作节奏，让创意判断少一点断裂，多一点连续性。",
-    source: "Adobe Blog",
-    date: "2026-04-15",
-    href: "https://blog.adobe.com/en/publish/2026/04/15/adobe-extends-leadership-video-unleashing-new-ai-powered-creation-firefly-reinventing-color-editors-in-premiere",
-    cta: "查看更新详情",
-    tags: ["trend", "global"],
-    labels: ["热点/视频创作者工具", "国外"],
-  },
-  {
-    id: "brooklyn-iris-van-herpen",
-    title: "Iris van Herpen 在布鲁克林开幕，未来感再次证明自己来自材质、身体和科学想象的联合作曲",
-    summary:
-      "Brooklyn Museum 官网显示，《Iris van Herpen: Sculpting the Senses》已于 2026 年 5 月 16 日开幕。展览把 140 余件高定作品与当代设计、自然史标本、科学想象和空间叙事并排陈列，让时装、材料研究与感知体验在同一层楼里相互照亮。",
-    note:
-      "对策展、舞台视觉和品牌空间来说，这种展览很有启发。真正有说服力的未来感，往往不是软件界面，而是材质如何受光、身体如何穿行、科学语言如何被翻译成感官经验。技术感需要被展示设计重新消化一次。",
-    source: "Brooklyn Museum",
+      "这门课有意思的地方在于它没有把伦理问题和创作问题分开。艺术家正在面对的是同一张桌子: 一边是风格、速度和控制力，另一边是材料来源、资源消耗和平台依赖。",
+    source: "InterAccess",
     date: "2026-05-16",
-    href: "https://brooklynmuseum.org/exhibitions/iris-van-herpen",
-    cta: "查看展览页面",
+    href: "https://www.interaccess.org/workshop/synthetic-worlds-making-images-video-with-generative-ai",
+    cta: "查看工作坊介绍",
+    tags: ["research", "global"],
+    labels: ["研究/生成影像工作坊", "国外"],
+  },
+  {
+    id: "possible-worlds-archive",
+    title: "鸟巢的新科技艺术中心开场就把电影视效、虚拟时尚和思辨设计压进同一条观看动线",
+    summary:
+      "China.org.cn 于 2026 年 5 月 1 日报道，“可能世界档案：2026 国际科技艺术展”在北京鸟巢科技艺术中心启幕。展览以“世界树”为叙事脉络，将数字艺术、电影工业视效、沉浸交互、虚拟时尚、AI 创作与思辨设计组合为常设公共体验空间，强调科技不是单件作品里的效果，而是一整套展览语法。",
+    note:
+      "如果你在做沉浸展、品牌空间或影像装置，这类项目值得观察。今天的技术展陈已经不满足于展示新玩具，它更想制造一种可以被拍摄、被停留、被复述的世界观。",
+    source: "China.org.cn",
+    date: "2026-05-01",
+    href: "https://www.china.org.cn/2026-05/01/content_118473308.shtml",
+    cta: "查看展览报道",
+    tags: ["trend", "cn"],
+    labels: ["热点/科技艺术展", "国内"],
+  },
+  {
+    id: "shenzhen-ai-terminal-expo",
+    title: "深圳把 AI 终端展做成创作者入口，电影节、独立展位和开发者活动正在一起吸人流",
+    summary:
+      "深圳市政府 2026 年 4 月 30 日发布消息，宣布“2026 全球人工智能终端展暨第七届深圳国际人工智能展览会”将于 5 月 14 日至 16 日举行。活动除了产品展区，还同步推出 AI 新物种节、AI 幻境电影节、AI 国际开发者节，以及面向中小团队与独立开发者的“一人一展位”计划。",
+    note:
+      "展会语言也在变。硬件、模型和接口之外，组织者开始主动为影像作者、设计师和独立团队安排曝光场景。做作品的人不只是去看趋势，也可能直接去占一个位置。",
+    source: "深圳市人民政府",
+    date: "2026-04-30",
+    href: "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_12761252.html",
+    cta: "查看展会发布",
+    tags: ["trend", "cn"],
+    labels: ["热点/创作者生态", "国内"],
+  },
+  {
+    id: "runway-agent",
+    title: "Runway 直接把“对话式出片”推到台前，视频制作开始更像导演一个会执行的搭档",
+    summary:
+      "Runway 于 2026 年 5 月 13 日发布 Runway Agent，把概念、故事节拍、视觉方向、配音、对白与音乐整合进一次对话流程。品牌团队、创意代理和独立电影作者都被直接设定为目标用户，平台强调可以从一句需求走到一条 ready-to-publish 的多镜头视频。",
+    note:
+      "这会影响短片预演、提案视频、社媒影像和低预算品牌内容。镜头语言当然还得靠人定调，但从念头到样片之间那段最容易卡住的空白，现在被平台压得更薄了。",
+    source: "Runway",
+    date: "2026-05-13",
+    href: "https://runwayml.com/news/introducing-runway-agent",
+    cta: "查看产品发布",
     tags: ["trend", "global"],
-    labels: ["热点/时装科技展", "国外"],
+    labels: ["热点/视频创作工具", "国外"],
+  },
+  {
+    id: "nycxdesign-future-now",
+    title: "纽约设计周把 AI 单独做成一天峰会，研究与实务被安排在同一张时间表里碰面",
+    summary:
+      "NYCxDESIGN 将于 2026 年 5 月 19 日在 Cornell Tech 举办“FUTURE NOW: Art of the Possible AI SUMMIT”。主办方把上午留给研究与学术视角，下午转向设计实践，从 architecture、graphic design 到 art and technology，一天之内集中讨论 AI 如何改变创意流程与产出形态。",
+    note:
+      "当设计周开始为 AI 预留完整舞台，信号已经很明确了。它不再只是工具分会场，而是正在成为品牌、空间、图形和视觉叙事共同处理的主议题。",
+    source: "NYCxDESIGN",
+    date: "2026-05-19",
+    href: "https://nycxdesign.org/events/future-now-art-of-the-possible-ai-summit",
+    cta: "查看峰会页面",
+    tags: ["trend", "global"],
+    labels: ["热点/设计周动态", "国外"],
   },
 ];
 
