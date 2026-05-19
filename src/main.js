@@ -2,116 +2,116 @@ import "./styles.css";
 
 const signals = [
   {
-    id: "nju-incalculable-summer-school",
-    title: "南京大学把“不可计算”推回艺术方法内部，这场暑校更像一次给创作者准备的思维换挡",
+    id: "cafa-rural-visual-systems",
+    title: "中央美院把 AI 训练放进乡村视觉系统，设计课开始直接连到真实公共场景",
     summary:
-      "南京大学艺术学院于 2026 年 5 月 12 日发布“不/可计算：人工智能、艺术与创意方法国际暑期学校”招生简章。课程把可持续未来、艺术与人文、科学与技术、文化与社区放进同一张课表里，邀请创作者从计算能力之外，重新讨论判断、关系与创意方法。",
+      "中央美术学院于 2026 年 5 月 13 日发布《智艺乡建》项目招生简章，围绕乡村文化资源提炼、IP 形象建构、整体视觉系统设计、空间应用模拟与成果展示展开 30 天训练。课程把 AI 设计工具、实地调研与项目制教学放在同一个流程里，让视觉设计从屏幕方案走向可落地的公共文化场景。",
     note:
-      "当越来越多工具承诺替我们生成答案，艺术教育反而开始提醒另一件事: 哪些问题不能被轻易算完。对策展、视觉叙事和跨媒介创作来说，这类训练的价值在于保住复杂性，而不是追求流程最短。",
-    source: "南京大学艺术学院",
-    date: "2026-05-12",
-    href: "https://art.nju.edu.cn/b3/80/c55331a832384/page.htm",
-    cta: "查看暑校简章",
-    tags: ["research", "cn"],
-    labels: ["研究/创意方法", "国内"],
-  },
-  {
-    id: "cdec-smart-soundscape",
-    title: "声音不再只是配角，中国好创意把“数智声景”单独拎出来，给展演与公共空间开了一条新赛道",
-    summary:
-      "中国好创意暨全国数字艺术设计大赛于 2026 年 5 月 5 日发布第 20 届“数智声景专项赛”。主办方把声音景观、数字交互空间设计和学术论文并列成三个组别，明确鼓励创作者把 AI 生成、实时引擎、空间音频和多模态交互放进同一个方案里，面向文旅、展演、城市微空间与疗愈场景展开实验。",
-    note:
-      "这条信号很适合声音艺术家、舞台设计师和空间团队留意。新的创作单元正在出现，作品不一定先是一首歌、一支片子或一件装置，它也可能先是一套会响应人的场域关系。",
-    source: "中国好创意暨全国数字艺术设计大赛",
-    date: "2026-05-05",
-    href: "https://cdec.org.cn/articleDetail/2322",
-    cta: "查看专项赛说明",
-    tags: ["research", "cn"],
-    labels: ["研究/声景方法", "国内"],
-  },
-  {
-    id: "met-build-with-ai",
-    title: "The Met 让创作者直接拿馆藏做原型，博物馆开始把 AI 当成观众关系设计的一部分",
-    summary:
-      "The Metropolitan Museum of Art 于 2026 年 5 月 1 日回顾“Build with AI at The Met”黑客松，邀请 40 多位 technologists、makers 与学生围绕亚洲艺术馆藏快速搭建体验原型。项目从自然语言语义搜索、鱼类图像识别到可演奏的数字乐器，把馆藏解释、游戏化交互和观众参与混在一起测试。",
-    note:
-      "很多机构还在问要不要把 AI 带进展厅，The Met 已经先拿它来试观众怎么走、怎么找、怎么玩。对美术馆与文化品牌来说，下一轮数字策展不只是做一个讲解助手，更像重写进入作品的方法。",
-    source: "The Metropolitan Museum of Art",
-    date: "2026-05-01",
-    href: "https://www.metmuseum.org/perspectives/build-with-ai-at-the-met",
-    cta: "查看 The Met 文章",
-    tags: ["research", "global"],
-    labels: ["研究/馆藏交互实验", "国外"],
-  },
-  {
-    id: "interaccess-synthetic-worlds",
-    title: "InterAccess 把争议和实操一起摆上桌，这个生成影像工作坊更接近艺术家的现实训练",
-    summary:
-      "多伦多机构 InterAccess 于 2026 年 5 月 16 日至 17 日举办“Synthetic Worlds: Making Images & Video with Generative AI”。课程面向摄影师、电影作者、音乐人、画家等传统艺术创作者，同时讲训练素材争议、数据中心水耗与平台权力结构，也安排 StreamDiffusion、TouchDesigner、ComfyUI 等本地工作流实践。",
-    note:
-      "这门课有意思的地方在于它没有把伦理问题和创作问题分开。艺术家正在面对的是同一张桌子: 一边是风格、速度和控制力，另一边是材料来源、资源消耗和平台依赖。",
-    source: "InterAccess",
-    date: "2026-05-16",
-    href: "https://www.interaccess.org/workshop/synthetic-worlds-making-images-video-with-generative-ai",
-    cta: "查看工作坊介绍",
-    tags: ["research", "global"],
-    labels: ["研究/生成影像工作坊", "国外"],
-  },
-  {
-    id: "possible-worlds-archive",
-    title: "鸟巢的新科技艺术中心开场就把电影视效、虚拟时尚和思辨设计压进同一条观看动线",
-    summary:
-      "China.org.cn 于 2026 年 5 月 1 日报道，“可能世界档案：2026 国际科技艺术展”在北京鸟巢科技艺术中心启幕。展览以“世界树”为叙事脉络，将数字艺术、电影工业视效、沉浸交互、虚拟时尚、AI 创作与思辨设计组合为常设公共体验空间，强调科技不是单件作品里的效果，而是一整套展览语法。",
-    note:
-      "如果你在做沉浸展、品牌空间或影像装置，这类项目值得观察。今天的技术展陈已经不满足于展示新玩具，它更想制造一种可以被拍摄、被停留、被复述的世界观。",
-    source: "China.org.cn",
-    date: "2026-05-01",
-    href: "https://www.china.org.cn/2026-05/01/content_118473308.shtml",
-    cta: "查看展览报道",
-    tags: ["trend", "cn"],
-    labels: ["热点/科技艺术展", "国内"],
-  },
-  {
-    id: "shenzhen-ai-terminal-expo",
-    title: "深圳把 AI 终端展做成创作者入口，电影节、独立展位和开发者活动正在一起吸人流",
-    summary:
-      "深圳市政府 2026 年 4 月 30 日发布消息，宣布“2026 全球人工智能终端展暨第七届深圳国际人工智能展览会”将于 5 月 14 日至 16 日举行。活动除了产品展区，还同步推出 AI 新物种节、AI 幻境电影节、AI 国际开发者节，以及面向中小团队与独立开发者的“一人一展位”计划。",
-    note:
-      "展会语言也在变。硬件、模型和接口之外，组织者开始主动为影像作者、设计师和独立团队安排曝光场景。做作品的人不只是去看趋势，也可能直接去占一个位置。",
-    source: "深圳市人民政府",
-    date: "2026-04-30",
-    href: "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_12761252.html",
-    cta: "查看展会发布",
-    tags: ["trend", "cn"],
-    labels: ["热点/创作者生态", "国内"],
-  },
-  {
-    id: "runway-agent",
-    title: "Runway 直接把“对话式出片”推到台前，视频制作开始更像导演一个会执行的搭档",
-    summary:
-      "Runway 于 2026 年 5 月 13 日发布 Runway Agent，把概念、故事节拍、视觉方向、配音、对白与音乐整合进一次对话流程。品牌团队、创意代理和独立电影作者都被直接设定为目标用户，平台强调可以从一句需求走到一条 ready-to-publish 的多镜头视频。",
-    note:
-      "这会影响短片预演、提案视频、社媒影像和低预算品牌内容。镜头语言当然还得靠人定调，但从念头到样片之间那段最容易卡住的空白，现在被平台压得更薄了。",
-    source: "Runway",
+      "对视觉设计师、公共艺术团队和文旅策展人来说，这条信号很实在。AI 在这里不是为了生成几张漂亮图，而是被用来加速一整套视觉包的推演、比对和沟通。",
+    source: "中央美术学院",
     date: "2026-05-13",
-    href: "https://runwayml.com/news/introducing-runway-agent",
-    cta: "查看产品发布",
-    tags: ["trend", "global"],
-    labels: ["热点/视频创作工具", "国外"],
+    href: "https://www.cafa.edu.cn/st/2026/90233562.htm",
+    cta: "查看项目简章",
+    tags: ["research", "cn"],
+    labels: ["研究/公共视觉方法", "国内"],
   },
   {
-    id: "nycxdesign-future-now",
-    title: "纽约设计周把 AI 单独做成一天峰会，研究与实务被安排在同一张时间表里碰面",
+    id: "nua-music-x-lab",
+    title: "南艺继续把 Music X Lab 往前推，音乐 AI 不只写旋律，也被当作研究、排练与交互的共同语言",
     summary:
-      "NYCxDESIGN 将于 2026 年 5 月 19 日在 Cornell Tech 举办“FUTURE NOW: Art of the Possible AI SUMMIT”。主办方把上午留给研究与学术视角，下午转向设计实践，从 architecture、graphic design 到 art and technology，一天之内集中讨论 AI 如何改变创意流程与产出形态。",
+      "南京艺术学院于 2026 年 4 月 17 日启动第三期 Music X Lab 音乐人工智能工作坊，活动持续至 5 月 20 日。工作坊以创新性课程和开放式论文研讨并行，聚焦人工智能生成、音乐理解与人机交互，试着把学术框架、创作训练和科研孵化放进同一条学习路径。",
     note:
-      "当设计周开始为 AI 预留完整舞台，信号已经很明确了。它不再只是工具分会场，而是正在成为品牌、空间、图形和视觉叙事共同处理的主议题。",
-    source: "NYCxDESIGN",
-    date: "2026-05-19",
-    href: "https://nycxdesign.org/events/future-now-art-of-the-possible-ai-summit",
+      "声音作者、舞台团队和影像剪辑师都值得留意这类训练。今天的音乐科技教育，正在从软件演示转向跨学科协作能力，节奏、界面、空间反馈和叙事编排被一起讨论。",
+    source: "南京艺术学院",
+    date: "2026-04-17",
+    href: "https://pop.nua.edu.cn/_t132/2026/0417/c1653a120261/page.htm",
+    cta: "查看工作坊安排",
+    tags: ["research", "cn"],
+    labels: ["研究/音乐科技工作坊", "国内"],
+  },
+  {
+    id: "lacp-ai-generative-imaging",
+    title: "摄影教育正在把 AI 当成基础修辞，洛杉矶摄影中心把提示、混合与伦理放进同一门入门课",
+    summary:
+      "洛杉矶摄影中心于 2026 年 5 月 18 日开启三节在线课程“AI Generative Imaging”，面向刚接触 AI 的艺术家与摄影师。课程从提示词、图像混合到伦理讨论一起展开，强调作者要在生成流程里逐步形成自己的方法，而不是停留在平台默认审美上。",
+    note:
+      "这条线索很适合影像创作者参考。行业正在把 AI 视作新的暗房训练，真正稀缺的不是按钮，而是你如何建立个人风格、筛选图像并承担判断。",
+    source: "Los Angeles Center of Photography",
+    date: "2026-05-18",
+    href: "https://lacphoto.org/events/ai-generative-imaging-midjourney-ann-elliott-cutting-2/",
+    cta: "查看课程页面",
+    tags: ["research", "global"],
+    labels: ["研究/摄影 AI 教学", "国外"],
+  },
+  {
+    id: "va-creativity-ai-make-along",
+    title: "V&A 把 AI 设计素养做成一堂公开练习课，判断力先于熟练度被摆到台前",
+    summary:
+      "V&A 于 2026 年 5 月 14 日举办在线工作坊“Creativity and AI Make-Along with Maria Than”。课程邀请 Adobe Creative Resident Maria Than 结合自己的艺术实践，带学生一边讨论 AI 如何进入设计流程，一边测试它怎样帮助想法发育，而不是直接替代想法本身。",
+    note:
+      "博物馆教育开始把 AI 视作一种创作素养训练，这很关键。未来观众和未来作者可能是同一拨人，他们需要学的不是只会用工具，而是会挑选、会取舍、会提问。",
+    source: "V&A",
+    date: "2026-05-14",
+    href: "https://www.vam.ac.uk/event/gbOVLKjyKP/schools-live-webinar-resident-in-ai-may-2026",
+    cta: "查看 V&A 活动",
+    tags: ["research", "global"],
+    labels: ["研究/设计教育", "国外"],
+  },
+  {
+    id: "china-pe-2026",
+    title: "北京 P&E 把影像器材展做成一整条创作链，摄影作者今年看的不是单机，而是工作流",
+    summary:
+      "第 27 届 CHINA P&E 于 2026 年 5 月 15 日在北京展览馆开幕。官方介绍显示，本届展会汇集 120 余家影像企业，覆盖相机、镜头、灯光、稳定器、存储与后期软件等全链路装备，同时把 AI 对焦、场景识别、智能图像优化、4K/8K 视频设备和沉浸式体验作为今年的集中看点。",
+    note:
+      "对摄影师、导演、视频团队和品牌内容工作室来说，器材展正在重新变得重要。因为创作链条被打通之后，选设备其实也在选节奏、选协作方式、选成片气质。",
+    source: "中国国际照相机械影像器材与技术博览会",
+    date: "2026-05-15",
+    href: "https://www.ccoea.org.cn/news3.asp?vid=7161",
+    cta: "查看开幕信息",
+    tags: ["trend", "cn"],
+    labels: ["热点/影像工具现场", "国内"],
+  },
+  {
+    id: "hengqin-macao-digital-art-expo",
+    title: "横琴澳门数字艺术博览会刚收官，算法、文旅和展陈已经被打包成一座城市的体验样机",
+    summary:
+      "中央政府驻澳门联络办公室于 2026 年 5 月 11 日报道，历时 14 天的“2026 横琴-澳门国际数字艺术博览会”正式收官。博览会聚集来自文博、文旅、影视、音乐、广告与教育领域的机构与创作者，设置四大主题展区，并在“艺术未来式”板块呈现 23 位艺术家的 18 件作品，让观众直接感受算法作为创作媒介的展场表现力。",
+    note:
+      "这类博览会越来越像城市级试验场。它不只卖门票，也在测试数字艺术能不能同时承担招商、传播、夜游、教育和品牌叙事的多重任务。",
+    source: "中央政府驻澳门联络办公室",
+    date: "2026-05-11",
+    href: "https://www.zlb.gov.cn/20260511/26d84b3d84924832bfb7a95f26f7a919/c.html",
+    cta: "查看博览会报道",
+    tags: ["trend", "cn"],
+    labels: ["热点/数字艺术博览会", "国内"],
+  },
+  {
+    id: "berklee-aims-lineup",
+    title: "Berklee 把 AI 音乐峰会排成可听、可学、可黑客松的整套日程，创作社区正在争取自己的话语权",
+    summary:
+      "Berklee 于 2026 年 5 月 13 日公布首届 AIMS（AI Music Summit）完整阵容。活动将于 6 月 3 日至 5 日举行，包含应用型工作坊、研究发表、行业 panel、现场演示、教学讨论和演出，随后还接上 6 月 6 日至 7 日的 hackathon，明确把音乐人的创作现实放在 AI 议程中心。",
+    note:
+      "音乐人不想只做平台变化的被动接收者了。峰会、演出和黑客松被放在一起，说明作者群体正在主动争取规则、工作流和审美标准的定义权。",
+    source: "Berklee College of Music",
+    date: "2026-05-13",
+    href: "https://www.berklee.edu/media-relations/news/berklee-convenes-leaders-in-ai-music-for-inaugural-aims-symposium",
+    cta: "查看峰会议程",
+    tags: ["trend", "global"],
+    labels: ["热点/音乐与 AI 生态", "国外"],
+  },
+  {
+    id: "artist-and-the-machine-ny",
+    title: "纽约的 AI & Creativity Summit 把设计、影像、品牌与机器人艺术排进同一张名单，跨界协作正在常态化",
+    summary:
+      "Artist and the Machine 的纽约 AI & Creativity Summit 于 2026 年 5 月 14 日举行，主题直接写成“Join the pioneers of human-machine collaboration”。页面显示，活动把 Runway 联合创始人、企业设计负责人、创意技术作者、机器人艺术创业者与教育者放进同一场编排里，明显不再把 AI 创意当成单一行业话题。",
+    note:
+      "当峰会的参会名单横跨工作室、品牌、学校、产品团队和艺术家，我们就能看到另一种趋势。创作圈真正关心的，已经不是谁先试过工具，而是谁能先组织起新的合作关系。",
+    source: "Artist and the Machine",
+    date: "2026-05-14",
+    href: "https://artistandthemachine.com/spring-2026/",
     cta: "查看峰会页面",
     tags: ["trend", "global"],
-    labels: ["热点/设计周动态", "国外"],
+    labels: ["热点/创意产业动向", "国外"],
   },
 ];
 
