@@ -2,116 +2,116 @@ import "./styles.css";
 
 const signals = [
   {
-    id: "tsinghua-ai-cross-disciplinary-program",
-    title: "清华美院把 AI 时代跨学科教育单独开班，艺术教学开始正面训练策划、协作与产业判断",
+    id: "cuc-digital-intelligence-art-declaration",
+    title: "中传发布《数智艺术北京宣言》，艺术教育开始把价值判断重新写进 AI 时代的培养框架",
     summary:
-      "清华大学美术学院于 2026 年 5 月 28 日发布“AI时代跨学科教育创新研修班”招生通知，课程设置不只围绕生成工具本身，而是把设计学科重构、教育创新、跨学科组织和产业转化并排放进一个培训框架。对艺术院校教师、策展教育项目和机构研究者来说，这是一条很直接的信号：AI 正在被当作重写教学结构的变量，而不是课后附加的一块插件。",
+      "中国传媒大学于 2026 年 5 月 1 日发布“从数字到数智——艺术与科技人才培养研讨会”报道，并在会上正式推出《数智艺术北京宣言》。这场讨论没有把重点停留在工具效率，而是直接落到原创能力、艺术主体性、创作伦理与人才培养路径。对艺术院校、策展教育项目和机构研究者来说，这是一条很硬的提醒：当生成系统全面进入创作链条，课程结构和价值训练也必须同步升级。",
     note:
-      "当研修班开始讨论怎么组织知识与合作关系，教学就已经从软件演示走向方法设计。未来的课堂，会越来越像一个小型创作系统。",
-    source: "清华大学美术学院",
-    date: "2026-05-28",
-    href: "https://www.ad.tsinghua.edu.cn/info/1577/32580.htm",
-    cta: "查看清华美院研修班",
+      "先把“为什么创作”说清，再谈“如何调用模型”。这会是未来艺术教育里越来越关键的一道顺序。",
+    source: "中国传媒大学",
+    date: "2026-05-01",
+    href: "https://www.cuc.edu.cn/news/2026/0501/c10133a269799/page.htm",
+    cta: "查看中传研讨会与宣言",
     tags: ["research", "cn"],
-    labels: ["研究/教育方法", "国内"],
+    labels: ["研究/教育框架", "国内"],
   },
   {
-    id: "caa-ai-chinese-painting-demo",
-    title: "国美把 AI 辅助中国画带到数字教育大会，传统媒介正在学着把生成过程变成公开讨论",
+    id: "jlart-ai-traditional-print-cocreation",
+    title: "吉林艺术学院把传统年画和满族说部带进 AI 论坛，生成艺术的讨论开始更认真地碰文化语境",
     summary:
-      "中国美术学院于 2026 年 5 月 11 日发布“世界数字教育大会杭州行”现场报道，提到中国画学院的师生展示了 AI 辅助中国画创作案例，并把数字技术与传统笔墨语言的融合过程放进公开教学与交流场景。这个动作很值得留意，因为它讨论的不是风格替代，而是传统媒介如何借助新工具重新安排草图、推演和讲解方式。",
+      "吉林艺术学院设计学院在 2026 年 5 月中旬参加第二届哈佛-香港教育大学-斯坦福“新兴科技与未来人才”联合论坛，围绕木版年画与满族说部提出“从工具到伙伴”“语义锚定”等方法论。与常见的 AIGC 演示不同，这里的焦点是如何避免跨模态转译造成文化错位，并让机器协同服务于叙事结构而不是吞掉地方经验。对做非遗影像、策展研究和文化转译设计的人来说，这样的讨论非常值得跟进。",
     note:
-      "很多艺术机构现在关心的，已经不是工具能不能生成一张图，而是它能否帮助作品的思考路径被看见、被比较、被继续修改。",
-    source: "中国美术学院",
-    date: "2026-05-11",
-    href: "https://www.caa.edu.cn/gmrx/202605/53585.html",
-    cta: "查看国美现场报道",
-    tags: ["research", "cn"],
-    labels: ["研究/传统媒介实验", "国内"],
-  },
-  {
-    id: "visualx-2026-guangzhou",
-    title: "广州 Visual X 把数字光影、智能显示和元宇宙生态并排展开，展会现场越来越像创作者的设备剧场",
-    summary:
-      "Visual X 官方于 2026 年 4 月 27 日发布展会文章，确认 2026 广州国际数字光影、智能显示及元宇宙生态展将于 5 月 28 日至 31 日在广交会展馆举行。对舞美团队、空间设计师、展陈制作方和互动装置工作室来说，这样的展会已经不只是看硬件参数的地方，更多时候是在观察一套新的感官基础设施如何被拼装起来。",
-    note:
-      "逛这类展，最有价值的往往不是单件设备，而是光、屏、控制系统和内容制作之间的接口。未来的审美，很多时候就藏在接口里。",
-    source: "Visual X",
-    date: "2026-04-27",
-    href: "https://www.visualx.com.cn/2026/04/27/2026-guangzhou-international-digital-lighting-and-meta-universe-ecological-exhibition/",
-    cta: "查看 Visual X 展会信息",
-    tags: ["trend", "cn"],
-    labels: ["热点/展会与空间技术", "国内"],
-  },
-  {
-    id: "tsinghua-grad-show-2026",
-    title: "清华美院毕业展把“艺科融合”直接推到美术馆尺度，学生项目开始以完整展陈语法面对公众",
-    summary:
-      "清华大学艺术博物馆于 2026 年 5 月 23 日发布“清华大学美术学院2026届本科生毕业作品展”信息，展览将于 5 月 24 日至 6 月 7 日举行，并把信息艺术设计、艺术与科技创新等方向一起带入馆内叙事。对年轻创作者和学院策展来说，这意味着毕业项目越来越早进入真实观看系统，作品需要同时处理界面、空间、说明、动线与停留时间。",
-    note:
-      "毕业展正在变得更像一次公开首演。能否把研究过程、媒介气质和展厅节奏连起来，已经成为学生项目的关键能力。",
-    source: "清华大学艺术博物馆",
-    date: "2026-05-23",
-    href: "https://www.artmuseum.tsinghua.edu.cn/cpsj/zlxx/zlhg/zgz/2026qhdxmysxybkbyzpz.htm",
-    cta: "查看清华毕业展信息",
-    tags: ["trend", "cn"],
-    labels: ["热点/毕业展与公共呈现", "国内"],
-  },
-  {
-    id: "siggraph-2026-art-convergence",
-    title: "SIGGRAPH 2026 直接把 Art Gallery、Art Papers 和 XR 剧场写进同一份预告，研究现场正在追求更完整的观看经验",
-    summary:
-      "ACM SIGGRAPH 于 2026 年 5 月 21 日发布大会预告，介绍 2026 届会议将把 Art Gallery、Art Papers、Immersive Pavilion 与 Production Sessions 一起放在“艺术、技术与叙事交汇”的框架下。对做数字艺术、实验影像、空间叙事和交互研究的人来说，这个信号很清楚：国际研究场域正在继续鼓励作品、论文、原型和现场体验同时成立。",
-    note:
-      "当研究会议把艺术展示放在这么显眼的位置，它释放的是一种态度：创作方法也可以是知识生产本身，而不是论文之外的附属品。",
-    source: "ACM SIGGRAPH",
-    date: "2026-05-21",
-    href: "https://s2026.siggraph.org/about-siggraph-2026/",
-    cta: "查看 SIGGRAPH 2026 预告",
-    tags: ["research", "global"],
-    labels: ["研究/国际会议与展示", "国外"],
-  },
-  {
-    id: "interaccess-synthetic-worlds-workshop",
-    title: "多伦多 InterAccess 开出生成影像工作坊，创作者教育继续把提示词、视频和批评放进同一张桌子",
-    summary:
-      "InterAccess 于 2026 年 5 月 16 日发布 Synthetic Worlds: Making Images & Video with Generative AI 工作坊页面，课程面向希望使用 Runway、Midjourney、ChatGPT 与 Stable Diffusion 的创作者，同时强调讨论生成影像的概念、限制与作品发展路径。它的意义不在于工具名单，而在于教学设计本身已经默认图像生产、视频实验和批评性反思要同步发生。",
-    note:
-      "好的创作课程越来越像编辑部加实验室。边做边讲，边生成边删，边比较边修正，这种节奏正在成为新的基础训练。",
-    source: "InterAccess",
+      "生成系统一旦进入地方文化叙事，提示词就不够了，语义边界、材料出处和讲述姿态都得重新校准。",
+    source: "吉林艺术学院设计学院",
     date: "2026-05-16",
-    href: "https://www.interaccess.org/workshop/synthetic-worlds-making-images-video-with-generative-ai",
-    cta: "查看 InterAccess 工作坊",
+    href: "https://design.jlart.edu.cn/info/1012/1744.htm",
+    cta: "查看吉林艺术学院论坛报道",
+    tags: ["research", "cn"],
+    labels: ["研究/文化转译方法", "国内"],
+  },
+  {
+    id: "njupt-grad-show-2026",
+    title: "南邮毕业展把“数绘万象·智承艺心”落到展厅里，校企协作与数智叙事正在一起塑形",
+    summary:
+      "南京邮电大学数字媒体与设计艺术学院于 2026 年 5 月 28 日发布 2026 届毕业设计作品展消息，展览以“数绘万象·智承艺心”为题，在校内艺术展厅正式开幕。报道特别强调展览既呈现数智驱动的设计表达，也搭建校企合作桥梁。对于视觉设计师、互动作者和毕业展策划团队来说，这说明年轻创作者的作品越来越早要同时面对内容表达、产业语境与公共展示三重压力。",
+    note:
+      "毕业展不再只是结课陈列，它更像第一次公开试播，作品语言、说明系统和合作能力都被一并观看。",
+    source: "南京邮电大学数字媒体与设计艺术学院",
+    date: "2026-05-28",
+    href: "https://cm.njupt.edu.cn/_t1316/2026/0528/c2386a302797/page.htm",
+    cta: "查看南邮毕业展报道",
+    tags: ["trend", "cn"],
+    labels: ["热点/毕业展与校企协作", "国内"],
+  },
+  {
+    id: "siva-mixed-reality-graduation-show",
+    title: "上视觉混合现实毕业展把心跳、脚步、气味都拉进交互系统，身体重新变成叙事接口",
+    summary:
+      "上海视觉艺术学院于 2026 年 5 月 22 日发布艺术与科技专业混合现实设计毕业展页面，展览集中呈现 AR 科普游戏、情绪可视化系统、VR 大空间展、数字交互穿戴和沉浸式视听空间等作品。页面文字写得很明确：图像不再只在屏幕里，声音可以实时转译为视觉，身体信号也会成为叙事燃料。对交互艺术家、空间影像团队和展览导演来说，这是一组非常具体的审美线索。",
+    note:
+      "让观众不只是看见图像，而是被卷进感知回路里。这类作品正在把交互从按钮逻辑推向气氛逻辑。",
+    source: "上海视觉艺术学院",
+    date: "2026-05-22",
+    href: "https://www.siva.edu.cn/2026/0522/c109a32081/page.htm",
+    cta: "查看上视觉混合现实毕业展",
+    tags: ["trend", "cn"],
+    labels: ["热点/混合现实与感知设计", "国内"],
+  },
+  {
+    id: "mit-beyond-data-driven-aesthetics",
+    title: "MIT 把计算美学研究直接做成展览，关于“如何生成、如何判断”的问题被翻成可走入的空间",
+    summary:
+      "MIT Architecture 当前正在展出的 Beyond Data-Driven Aesthetics，把一个关于计算美学系统的长期研究项目转译为展览与研究平台。项目追踪的不是“数据够不够多”，而是创作与评价如何被计算地组织起来，并通过互动装置把这些逻辑重新交给公众理解。对建筑师、展览设计师和数字艺术研究者来说，这类呈现方式很重要，因为它让理论不再只停在论文里，而是能被空间化地体验。",
+    note:
+      "把研究做成可逛、可看的装置，本身就是一种写作。未来会有更多方法论不是被解释，而是被布置出来。",
+    source: "MIT Architecture",
+    date: "2026-03-31",
+    href: "https://architecture.mit.edu/news/exhibition-beyond-data-driven-aesthetics",
+    cta: "查看 MIT 展览与研究项目",
     tags: ["research", "global"],
-    labels: ["研究/生成影像工作坊", "国外"],
+    labels: ["研究/计算美学项目", "国外"],
   },
   {
-    id: "sfmoma-electric-movements-zizi-show",
-    title: "SFMOMA 让 AI 舞蹈电影和 live coding 同台出现，影像放映又一次被拉回现场表演",
+    id: "gray-area-creative-code-showcase",
+    title: "Gray Area 把创意编程课程成果公开展出，代码练习正越来越像可被观看的作者性陈述",
     summary:
-      "SFMOMA 于 2026 年 5 月 28 日发布 Electric Movements 系列活动页面，其中 The Zizi Show 把 AI 舞蹈电影、实时编码表演与现场声音放进同一个夜晚。对于影像作者、编舞、演出策划和媒体艺术机构来说，这种节目编排很有启发性：屏幕内容不再独立存在，它正在被重新安置进可被共同感受的时空里。",
+      "Gray Area 在 2026 年 5 月 20 日至 21 日举行的 Creative Code Showcase 中，让 13 位创作者公开展示 Creative Code Intensive 的课程成果。展出作品横跨沉浸式装置、互动诗歌和艺术游戏，同时把记忆、监控、身份与 AI 时代的人机关系并排展开。对艺术教育组织者和新媒体创作者来说，这种公开展示有个很值得学的点：课程不只教软件，它也教如何把计算过程组织成有立场的作品语言。",
     note:
-      "今天的影像现场，越来越重视事件感。放映、表演、算法和观众呼吸被放进一条时间线上，作品也因此有了新的张力。",
-    source: "SFMOMA",
-    date: "2026-05-28",
-    href: "https://www.sfmoma.org/event/electric-movements-the-zizi-show/",
-    cta: "查看 SFMOMA 活动页",
-    tags: ["trend", "global"],
-    labels: ["热点/影像与现场表演", "国外"],
+      "写代码、搭交互、谈处境，三件事放在一起，作者气质才会真正浮出来。",
+    source: "Gray Area",
+    date: "2026-05-20",
+    href: "https://grayarea.org/event/gray-area-creative-code-showcase-spring-2026/",
+    cta: "查看 Gray Area Showcase",
+    tags: ["research", "global"],
+    labels: ["研究/创意编程教育", "国外"],
   },
   {
-    id: "hauser-wirth-keith-tyson-generative-universe",
-    title: "Hauser & Wirth 让 Keith Tyson 的“Generative Universe”在香港开幕，生成逻辑再次回到绘画和雕塑的身体尺度",
+    id: "dia-come-play",
+    title: "底特律艺术博物馆把整面大厅做成实时交互装置，博物馆正在主动学习怎样让身体进入作品",
     summary:
-      "Hauser & Wirth 于 2026 年 5 月 28 日发布展览页面，宣布 Keith Tyson 个展 The Generative Universe 在香港开幕，展览围绕规则、系统、宇宙生成与材料转译展开。对艺术家、策展人和收藏研究者来说，这个展览提供了一种有意思的观察角度：‘生成’并不只属于当代 AI 图像，它也可以是雕塑、绘画和思想结构之间长期存在的创作语法。",
+      "底特律艺术博物馆于 2026 年 5 月 26 日发布 Come Play 项目介绍，宣布从 5 月 30 日起在 Great Hall 部署三块 13 英尺高的数字屏幕，将观众动作即时转译为光、影与声音。馆方把它定义为首次大型数字装置实验，也把可达性和家庭观众体验放进设计重点。对策展团队、互动装置工作室和公共文化空间运营者来说，这不是简单的打卡项目，而是在练习一种新的入场方式。",
     note:
-      "当生成被重新放回手工与物质里，它会变得更耐看。很多当下争论，或许都能在更长的艺术史尺度里重新理解。",
-    source: "Hauser & Wirth",
-    date: "2026-05-28",
-    href: "https://www.hauserwirth.com/hauser-wirth-exhibitions/keith-tyson-the-generative-universe/",
-    cta: "查看 Hauser & Wirth 展览",
+      "当观众的手势、停顿和步伐都能触发反馈，博物馆的节奏就会被重新书写。",
+    source: "Detroit Institute of Arts",
+    date: "2026-05-26",
+    href: "https://dia.org/about/blog/come-play-new-digital-experience-dia",
+    cta: "查看 DIA 数字装置项目",
     tags: ["trend", "global"],
-    labels: ["热点/展览与生成观念", "国外"],
+    labels: ["热点/博物馆交互体验", "国外"],
+  },
+  {
+    id: "elevenlabs-music-v2",
+    title: "ElevenLabs 把 AI 音乐更新做成可分段编辑的工作流，声音创作终于更像剪辑而不是抽卡",
+    summary:
+      "ElevenLabs 于 2026 年 5 月 26 日发布 Music v2，强调新模型不仅提升人声、编曲与多语种表现，还支持对歌曲局部进行 inpainting，并能按 intro、verse、chorus 这样的段落结构继续向前生成。对影像作者、声音设计师、品牌内容团队和独立音乐人来说，这类更新很关键，因为它让 AI 音乐不再只是一次性出图式结果，而开始靠近真正可修改、可拼接、可导演的制作流程。",
+    note:
+      "能改桥段，能续段落，能保留结构。声音工具一旦长出这些控制力，创作者才更愿意把它纳入正式工作流。",
+    source: "ElevenLabs",
+    date: "2026-05-26",
+    href: "https://elevenlabs.io/blog/introducing-music-v2",
+    cta: "查看 ElevenLabs Music v2",
+    tags: ["trend", "global"],
+    labels: ["热点/音乐创作者工具", "国外"],
   },
 ];
 
